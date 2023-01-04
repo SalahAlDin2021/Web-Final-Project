@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)http://web1170704.studentswebprojects.ritaj.ps/Assignments/Assignment2/ass02.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   <title>Assiment 2</title>
+   <link rel="stylesheet" href="./Assiment 2_files/ass02.css">
+</head>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php?">
+    <fieldset>
+       <legend>Advanced Art Work Search</legend>
+	   
+        <div id="searchBox">
+			<br>
+			<input type="text" placeholder="Search titles" id="searchBox" name="searchBox"> <!--Text Box-->
+			
+			<label>Subject : </label>
+			<input type="radio" id="History" name="sub" value="History"> History <!--Radio buttons-->
+			<input type="radio" id="Person" name="sub" value="Person"> Person
+			<input type="radio" id="Landscape" name="sub" value="Landscape"> Landscape
+			
+			<select name="Genre" id="Genre"> <!--Drop List-->
+				<option value="" selected="" disabled="" hidden="">Select Genre</option>
+				<option value="Baroque">Baroque</option>
+				<option value="Renaissance">Renaissance</option>
+				<option value="Realism">Realism</option>
+			</select>
+			
+			<input type="submit" value="Filter"> <br><br> <!--Button-->
+		   
+		</div>   
+		
+        <div id="settingsBox">
+			<br>
+			<select name="BulkActions" id="BulkActions"> <!--Drop List-->
+				<option value="" selected="" disabled="" hidden="">Bulk Actions</option>
+				<option value="0">Archive</option>
+				<option value="1">Edit</option>
+				<option value="2">Delete</option>
+				<option value="3">Collection</option>
+			</select>
+			
+			<input type="submit" value="Applay To All"><br><br> <!--Button-->
+        </div>
+        
+		
+		<div id="paintingBox">
+			<table style="width:95%"> <!--Tabel-->
+			   <caption><b>Paintings</b></caption>
+			   
+			   <thead> <!--Tabel Header-->
+				<tr>
+					<th colspan="2">Title</th>
+					<th>Artist</th>
+					<th>year</th>
+					<th>Genre</th>
+					<th>Actions</th>
+			   </tr>
+			   </thead>
+			   
+				<tbody> <!--Tabel Boady-->
+				   <tr>
+						<td colspan="2"> <input type="checkbox" id="tables" name="index[]" value="1">  <img id="tit" src="./Assiment 2_files/05030.jpg"> <label>Death of Marat</label></td>
+						
+						<td>David,jacques-Loius</td>
+						<td>1793</td>
+						<td>Romanticism</td>
+						<td>
+							<button>
+							<img src="./Assiment 2_files/archive.png" alt="archive.png">
+							</button>
+							
+							<button>
+							<img src="./Assiment 2_files/collection.png" alt="collection.png">
+							</button>
+							
+							<button>
+							<img src="./Assiment 2_files/delete.png" alt="delete.png">
+							</button>
+							
+							<button>
+							<img src="./Assiment 2_files/edit.png" alt="edit.png">
+							</button>
+						 </td>
+				   </tr>
+				   
+				   <tr>
+					<td colspan="2"><input type="checkbox" id="tables" name="index[]" value="2">  <img id="tit" src="./Assiment 2_files/06010.jpg"> <label>Portralt of Eleanor of Toledo</label></td>
+					<td>Brinzino,Agnolo</td>
+					<td>11545</td>
+					<td>Mannerism</td>
+					
+					<td>
+						<button>
+						<img src="./Assiment 2_files/archive.png" alt="">
+						</button>
+						<button> <img src="./Assiment 2_files/collection.png" alt="">
+						</button>
+						<button>
+						<img src="./Assiment 2_files/delete.png" alt="">
+						</button>
+						<button>
+						<img src="./Assiment 2_files/edit.png" alt="">
+						</button>
+					</td>
+				   </tr>
+				   <tr>
+				   
+					<td colspan="2"><input type="checkbox" id="tables" name="index[]" value="3">  <img id="tit" src="./Assiment 2_files/07020.jpg"> <label>Liberty leading the people </label></td>
+					<td>Delacroix,Eugene</td>
+					<td>1830</td>
+					<td>Romanticism</td>
+					<td>
+						<button>
+						 <img src="./Assiment 2_files/archive.png" alt="archive">
+						 </button>
+						 
+						 <button>
+						 <img src="./Assiment 2_files/collection.png" alt="collection">
+						 </button>
+						 
+						 <button>
+						 <img src="./Assiment 2_files/delete.png" alt="delete">
+						 </button>
+						 
+						 <button>
+						 <img src="./Assiment 2_files/edit.png" alt="edit">
+						 </button>
+					</td>
+				   </tr>
+				   
+				   <tr>
+					<td colspan="2"> <input type="checkbox" id="tables" name="index[]" value="4">  <img id="tit" src="./Assiment 2_files/13030.jpg"> <label>Arrangement in Grey and Black </label></td>
+					<td>Whistler,james Abbott</td>
+					<td>1871</td>
+					<td>Realism</td>
+					<td> 
+						<button>
+						<img src="./Assiment 2_files/archive.png" alt="archive">
+						</button>
+						
+						<button>
+						<img src="./Assiment 2_files/collection.png" alt="collection">
+						</button>
+						
+						<button>
+						<img src="./Assiment 2_files/delete.png" alt="delete">
+						</button>
+						
+						<button>
+						<img src="./Assiment 2_files/edit.png" alt="edit">
+						</button>
+					</td>
+				   </tr> 
+				   
+				   <tr>
+					<td colspan="2"> <input type="checkbox" id="tables" name="index[]" value="5">  <img id="tit" src="./Assiment 2_files/120010.jpg"> <label>Mademoiselle Caroline Riviere</label></td>
+					<td>Ingres,Jean-Auguste</td>
+					<td>1806</td>
+					<td>Neo-Classicism</td>
+					<td>
+						<button>
+						<img src="./Assiment 2_files/archive.png" alt="">
+						</button>
+						
+						<button>
+						<img src="./Assiment 2_files/collection.png" alt="">
+						</button>
+						
+						<button>
+						<img src="./Assiment 2_files/delete.png" alt="">
+						</button>
+						
+						<button>
+						<img src="./Assiment 2_files/edit.png" alt="">
+						</button>
+					</td>
+				 </tr></tbody>
+			   
+			</table>
+		
+        </div> 
+    </fieldset>
+	
+</form>
+
+</body></html>

@@ -1,0 +1,136 @@
+dl {
+    padding-left: 1em;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+textarea {
+    width: 30rem;
+    height: 12rem;
+}
+
+
+.links {
+    margin-top: 1.2rem;
+}
+
+form {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5em;
+}
+
+dl {
+    padding-left: 1em;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+#company_logo {
+    margin-right: 2.2rem;
+    width: 22em;
+    height: 18em;
+}
+
+#student_photo {
+    margin-right: 2.2rem;
+    width: 18em;
+    height: 16em;
+}
+
+
+#login_from input {
+    margin-bottom: .8rem;
+}
+
+.table_companies thead,
+.table_student thead {
+    background-color: lightblue;
+    height: 2rem;
+}
+
+.table_companies tbody td,
+.table_student tbody td {
+    padding-left: 0.5em;
+}
+
+.table_companies tbody tr:nth-child(odd),
+.table_student tbody tr:nth-child(odd) {
+    background-color: #E8E8E8;
+}
+
+.table_companies tbody td:first-child {
+    width: 15em;
+}
+
+.table_companies td img {
+    height: 7em;
+
+}
+
+.table_student tbody td:first-child {
+    width: 10em;
+    text-align: center;
+}
+
+.table_student td img {
+    height: 8em;
+}
+
+.table_student,
+.table_companies {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.2em;
+
+}
+
+.table_student,
+.table_companies,
+.table_student td,
+.table_companies td,
+.table_student th,
+.table_companies th {
+    border: solid 1pt green;
+}
+
+.student_info,
+.company_info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.student_info dl,
+.company_info dl {
+    border-left: 1px solid #d3d3d3;
+}
+
+.simple_form {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.add_form label {
+    margin-right: 4em;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: darkgrey;
+}
+
+thead {
+    background-color: skyblue;
+}

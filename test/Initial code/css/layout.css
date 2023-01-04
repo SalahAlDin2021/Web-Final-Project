@@ -1,0 +1,127 @@
+/*body*/
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 1rem;
+}
+
+/*header*/
+header {
+    background-color: skyblue;
+    border-bottom: .35rem solid rgb(116, 86, 9);
+    flex-basis: 100%;
+    padding: 0.15rem;
+    margin: 0;
+}
+
+header div h1 {
+    display: inline;
+}
+
+header nav a {
+    font-size: 2rem;
+}
+
+header img {
+    width: 4rem;
+    height: 4rem;
+}
+
+header nav a:link,
+a:visited {
+    text-decoration: none;
+}
+
+header img {
+    float: left;
+    padding: 0.8rem;
+}
+
+header>* {
+    display: flex;
+    justify-content: center;
+}
+
+header .headclass {
+    float: left;
+    margin-right: .2em;
+}
+
+header nav {
+    clear: both;
+    margin: 1em 0.5em;
+    align-items: center;
+}
+
+header>a {
+    float: right;
+    margin: 1em 0.2em;
+}
+
+header a {
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: skyblue;
+    border-top: .35rem solid black;
+    flex-basis: 100%;
+    align-items: flex-start;
+    padding: 0.6rem;
+    margin: 0;
+}
+
+footer>img {
+    float: left;
+    margin-right: 1rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    width: 6rem;
+    height: 6rem;
+}
+
+/*main*/
+
+
+main {
+    margin: 1em 0;
+    margin-left: 0.5em;
+    margin-right: 1rem;
+    flex-grow: 1;
+    padding: 0 1rem;
+}
+
+main a {
+    color: cornflowerblue;
+}
+
+main a:hover {
+    color: rebeccapurple;
+}
+
+
+/*asid*/
+aside {
+    border: .1rem solid black;
+    margin: 1em 0.5em;
+    padding: 0 1rem;
+    margin-left: 1em;
+    flex-basis: 20em;
+}
